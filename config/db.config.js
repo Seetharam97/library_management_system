@@ -5,7 +5,7 @@ const mysql  = require('mysql');
 const dbConn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'admin@123',
+    password: '',
     database: 'library_management_system'
 });
 
